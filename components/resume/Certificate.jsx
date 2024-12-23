@@ -8,17 +8,17 @@ const certificates = {
     {
       name: "Front-end Web Development",
       org: "Dibimbing.id",
-      url: "#",
+      url: "https://drive.google.com/file/d/1DIb3xVS3EFFQQPc64OIDKHVrb0NBsQa0/view?usp=sharing",
     },
     {
       name: "Cloud Computing Cohort",
       org: "Bangkit Academy",
-      url: "#",
+      url: "https://drive.google.com/file/d/1sCD6CWbghNNswQ9y5mPAu4WeHD4ZpJcR/view?usp=sharing",
     },
     {
       name: "Golang Backend Engineer",
       org: "Alterra Academy",
-      url: "#",
+      url: "https://drive.google.com/file/d/1bdZMcL6SQZQrraO4n0HoNaPj2GRdBGlD/view?usp=sharing",
     },
   ],
 };

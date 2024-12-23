@@ -31,7 +31,7 @@ const Home = () => {
               >
                 <Link
                   href={
-                    "https://drive.google.com/file/d/1eec7y-BV6DoDMrMpRwzf0qUWvo-_Yq2I/view?usp=sharing"
+                    "https://drive.google.com/file/d/1DsJrvxaYFRHTpM5mqd2hirEXFiMaOkvk/view?usp=sharing"
                   }
                 >
                   <BsArrowUpRight className="text-xl font-extrabold" />

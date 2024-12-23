@@ -1,4 +1,5 @@
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const honors = {
   title: "Honors and Awards",
@@ -8,6 +9,7 @@ const honors = {
       name: "2nd Runner Up Performer",
       duration: "December 2024",
       institution: "Dibimbing.id",
+      url: "https://drive.google.com/file/d/1MRjwmKfGgaJW1sjAXu9XBheyX_J2SKwz/view?usp=sharing",
       description: [
         "Shown consistent improvement during bootcamp.",
         "Engaged in classes, mentoring sessions, and presentations.",
@@ -18,6 +20,7 @@ const honors = {
       name: "Best Portfolio Mini Project in React",
       duration: "December 2024",
       institution: "Dibimbing.id",
+      url: "https://drive.google.com/file/d/1ZLY7dcFBJEbWIooOKsQnuwQokzZmwzBT/view?usp=sharing",
       description: [
         "Dedication to React and front-end development tools.",
         "Created an attractive, responsive, and modern user interface.",
@@ -62,6 +65,15 @@ const Honor = () => (
                   <li key={index}>{point}</li>
                 ))}
               </ul>
+              <div className="flex items-center gap-3 text-accent">
+                <p className="text-sm w-[8px] h-[6px]">
+                  {" "}
+                  <FaExternalLinkAlt />{" "}
+                </p>
+                <a href={item.url} target="_blank" className="h-[23px]">
+                  See the certificate{" "}
+                </a>
+              </div>
             </li>
           );
         })}
