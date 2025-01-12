@@ -5,16 +5,20 @@ const experiences = {
   description: "Overview of my experiences and roles held.",
   items: [
     {
+      company: "PT. Wong Makmur Sejati",
+      position: "Fullstack Developer",
+      duration: "Jan 2025 - Present",
+      url: "https://tigerwongentertainment.com/",
+      place: "Jakarta, Bintaro Raya · Onsite",
+      responsibilities: ["Handle project from scratch."],
+    },
+    {
       company: "Eureka Edutech",
       position: "Frontend Developer Intern",
       duration: "Nov 2024 - Present",
-      url: "https://cmlabs.co/en-id",
-      place: "Jakarta, West Cilandak · Remote",
-      responsibilities: [
-        "Work in a team.",
-        "Slicing UI design",
-        "Doing API Integration.",
-      ],
+      url: "https://medium.com/eureka-edutech",
+      place: "Jakarta, Cilandak Barat · Remote",
+      responsibilities: ["Slicing UI design into code.", "API Integration."],
     },
   ],
 };
