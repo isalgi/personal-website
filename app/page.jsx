@@ -29,11 +29,7 @@ const Home = () => {
                 size="lg"
                 className="uppercase flex items-center gap-3 px-5"
               >
-                <Link
-                  href={
-                    "https://drive.google.com/file/d/1DsJrvxaYFRHTpM5mqd2hirEXFiMaOkvk/view?usp=sharing"
-                  }
-                >
+                <Link href={"#"}>
                   <BsArrowUpRight className="text-xl font-extrabold" />
                   <span>Check My Resume</span>
                 </Link>
