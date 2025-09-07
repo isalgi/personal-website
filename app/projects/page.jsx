@@ -45,35 +45,35 @@ const projects = [
     github: "https://github.com/iskhafel/minpro-salingsapa",
     live_demo: "https://minpro-salingsapa.netlify.app/",
   },
-  {
-    num: "03",
-    title: "BisaEksplor : Travel App",
-    description:
-      "This project focuses on developing a booking platform that simplifies the process of finding and booking travel activities. The app also supports admin functionalities for managing content and transactions effectively.",
-    stack: [
-      { name: "ReactJS" },
-      { name: "TailwindCSS" },
-      { name: "React Router" },
-      { name: "Axios" },
-      { name: "Flowbite" },
-    ],
-    image: "/assets/projects/bisaeksplor-preview.png",
-    github: "https://github.com/iskhafel/bisaeksplor",
-    live_demo: "https://bisaeksplor.vercel.app/",
-    figma_url:
-      "https://excalidraw.com/#json=3Qf8DcGsmHDkMYL-aKVCr,ZYRuIoPpNGI2aj6PyBq7zA",
-  },
-  {
-    num: "04",
-    title: "SIMS PPOB",
-    description:
-      "This project is a frontend application developed as part of a technical test. It is designed as a basic wallet management system called SIMS PPOB. The app allows users to top up their balance, make transactions, view transaction history, and edit account details.",
-    stack: [{ name: "ReactJS" }, { name: "TailwindCSS" }, { name: "Redux" }],
-    api_doc: "https://api-doc-tht.nutech-integrasi.com/",
-    image: "/assets/projects/simsppob-preview.png",
-    github: "https://github.com/iskhafel/tht-nutech",
-    live_demo: "https://simsppobfaishal-makarim-kamali.vercel.app/",
-  },
+  // {
+  //   num: "03",
+  //   title: "BisaEksplor : Travel App",
+  //   description:
+  //     "This project focuses on developing a booking platform that simplifies the process of finding and booking travel activities. The app also supports admin functionalities for managing content and transactions effectively.",
+  //   stack: [
+  //     { name: "ReactJS" },
+  //     { name: "TailwindCSS" },
+  //     { name: "React Router" },
+  //     { name: "Axios" },
+  //     { name: "Flowbite" },
+  //   ],
+  //   image: "/assets/projects/bisaeksplor-preview.png",
+  //   github: "https://github.com/iskhafel/bisaeksplor",
+  //   live_demo: "https://bisaeksplor.vercel.app/",
+  //   figma_url:
+  //     "https://excalidraw.com/#json=3Qf8DcGsmHDkMYL-aKVCr,ZYRuIoPpNGI2aj6PyBq7zA",
+  // },
+  // {
+  //   num: "04",
+  //   title: "SIMS PPOB",
+  //   description:
+  //     "This project is a frontend application developed as part of a technical test. It is designed as a basic wallet management system called SIMS PPOB. The app allows users to top up their balance, make transactions, view transaction history, and edit account details.",
+  //   stack: [{ name: "ReactJS" }, { name: "TailwindCSS" }, { name: "Redux" }],
+  //   api_doc: "https://api-doc-tht.nutech-integrasi.com/",
+  //   image: "/assets/projects/simsppob-preview.png",
+  //   github: "https://github.com/iskhafel/tht-nutech",
+  //   live_demo: "https://simsppobfaishal-makarim-kamali.vercel.app/",
+  // },
 ];
 
 const ImageModal = ({ isOpen, onClose, imageSrc, imageAlt }) => {
