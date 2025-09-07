@@ -30,7 +30,7 @@ const projects = [
       "Better Space is a web-based platform that has been developed to improve the rental of office space in Jakarta. Our platform enables the effortless discovery and reservation of office spaces in Jakarta's dynamic business districts. Five teams were responsible for the development of this project, including UI/UX Designers, Backend Developers (using Go), Frontend Developers (using React JS), Mobile Developers (using Flutter), and Quality Engineers. I was responsible for the backend part.",
     stack: [{ name: "Go" }, { name: "ReactJS" }, { name: "Flutter" }],
     image: "/assets/projects/better-space-img.png",
-    github: "https://github.com/Kelompok3-Office-Booking",
+    github: "https://github.com/isalgi/betterspace-api",
     api_doc: "https://documenter.getpostman.com/view/16304674/2s8YzXwg7q",
     document:
       "https://drive.google.com/file/d/1S8voyu7OWdcogKGKAL7XjH3r7gKxRT-r/view?usp=sharing",
@@ -42,7 +42,7 @@ const projects = [
       "SalingSapa is a mini project developed as part of the Dibimbing assignments. This project showcases the implementation of front-end development skills using HTML, CSS (with Tailwind CSS), and a slight of JavaScript.",
     stack: [{ name: "HTML" }, { name: "TailwindCSS" }],
     image: "/assets/projects/salingsapa-preview.png",
-    github: "https://github.com/iskhafel/minpro-salingsapa",
+    github: "https://github.com/isalgi/minpro-salingsapa",
     live_demo: "https://minpro-salingsapa.netlify.app/",
   },
   // {
