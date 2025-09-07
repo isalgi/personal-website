@@ -15,10 +15,10 @@ const Home = () => {
               Faishal Makarim Kamali
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80 xl:text-justify">
-              I am highly dedicated to website development, with a strong focus
-              to become a Frontend Developer. I usually built web applications
-              with React and NextJS. Also ability to translate design concepts
-              into functional code.
+              Built websites and translate design concepts into interactive user
+              interfaces. With clean code and best practices. Using React &
+              Next.js. Currently working as a full-stack web developer at PT.
+              Wong Makmur Sejati.
             </p>
 
             {/* Download CV and Socials */}
